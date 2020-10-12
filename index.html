@@ -21,11 +21,17 @@
         <a href="/" class="logo">
           Web<span class="logo-studio">Studio</span>
         </a>
-        <button type="button" class="button-header">
+        <button
+          type="button"
+          class="menu-button is-open"
+          aria-expanded="false"
+          data-menu-button
+        >
           <svg
             class=""
             width="40"
             height="40"
+            aria-controls="menu-container"
             aria-label="Переключатель мобильного меню"
           >
             <use
@@ -38,6 +44,9 @@
             ></use>
           </svg>
         </button>
+        <div class="menu-container is-open" id="menu-container" data-menu>
+          ghbjrjhe
+        </div>
         <nav class="main-nav">
           <ul class="header-nav">
             <li class="item">
@@ -519,6 +528,19 @@
 
             e.currentTarget.reset();
           });
+      })();
+    </script>
+    <script>
+      (() => {
+        const menuBtnRef = document.querySelector("[data-menu-button]");
+        const mobileMenuRef = document.querySelector("[data-menu]");
+        menuBtnRef.addEventListener("click", () => {
+          const expanded =
+            menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+          menuBtnRef.classList.toggle("is-open");
+          menuBtnRef.setAttribute("aria-expanded", !expanded);
+          mobileMenuRef.classList.toggle("is-open");
+        });
       })();
     </script>
   </body>
