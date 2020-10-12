@@ -5,12 +5,13 @@ header {
 .main-navigation {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 10px 15px;
 }
 
 .main-nav {
   display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
