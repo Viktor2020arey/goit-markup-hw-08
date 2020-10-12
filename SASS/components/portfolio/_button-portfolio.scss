@@ -1,45 +1,45 @@
-.button-portfolio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 16px;
-  margin-bottom: 34px;
+// .button-portfolio {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   padding-bottom: 16px;
+//   margin-bottom: 34px;
 
-  & .item {
-    margin-right: 8px;
-  }
+//   & .item {
+//     margin-right: 8px;
+//   }
 
-  & .item:last-child {
-    margin-right: 0px;
-  }
-}
+//   & .item:last-child {
+//     margin-right: 0px;
+//   }
+// }
 
-.button-portfolio button {
-  background-color: $bg-button-portfolio;
-  color: $title-text-color;
+// .button-portfolio button {
+//   background-color: $bg-button-portfolio;
+//   color: $title-text-color;
 
-  display: inline-block;
-  border-radius: 4px;
-  padding: 5px 22px;
-  min-width: 73px;
-  text-align: center;
-  border: 1px solid transparent;
+//   display: inline-block;
+//   border-radius: 4px;
+//   padding: 5px 22px;
+//   min-width: 73px;
+//   text-align: center;
+//   border: 1px solid transparent;
 
-  letter-spacing: 0.03em;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-decoration: none;
-  text-align: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   letter-spacing: 0.03em;
+//   font-family: inherit;
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 1.63;
+//   text-decoration: none;
+//   text-align: center;
+//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
-  &:focus {
-    background-color: $accent-color;
-    color: $white-text;
-    cursor: pointer;
-  }
-}
+//   &:hover,
+//   &:focus {
+//     background-color: $accent-color;
+//     color: $white-text;
+//     cursor: pointer;
+//   }
+// }
