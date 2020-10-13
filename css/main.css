@@ -303,6 +303,16 @@ header {
   transform: scaleX(1);
 }
 
+@media screen and (max-width: 767px) {
+  .contacts {
+    margin-top: 4px;
+  }
+}
+
+.header-adress {
+  display: inline-block;
+}
+
 @media screen and (min-width: 1200px) {
   .header-adress {
     display: -webkit-box;
@@ -312,10 +322,34 @@ header {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .header-adress .item {
+    margin-top: 16px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .header-adress .item + .item {
     margin-left: 50px;
   }
+}
+
+.header-adress a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  text-align: center;
+  color: #757575;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 1200px) {
@@ -337,6 +371,21 @@ header {
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+}
+
+.header-adress a:hover,
+.header-adress a:focus {
+  color: #2196f3;
+}
+
+.mail-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.tel-svg {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 1199px) {
