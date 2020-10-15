@@ -30,20 +30,17 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  color: red;
 }
 
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
-    color: green;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    color: blue;
   }
 }
 
@@ -53,10 +50,8 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .section {
-    margin-bottom: 60px;
-  }
+.section {
+  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -156,10 +151,10 @@ header {
 
 .logo {
   color: #2196f3;
-  font-weight: 700;
+  font-weight: bold;
   font-family: Raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.2;
+  font-size: 24px;
+  line-height: 1.17;
   text-decoration: none;
 }
 
@@ -385,6 +380,79 @@ header {
 .tel-svg {
   fill: currentColor;
   margin-right: 10px;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/overlay.jpg), -webkit-gradient(linear, left top, right top, from(#c4c4c4), to(#c4c4c4));
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/overlay.jpg), linear-gradient(to right, #c4c4c4, #c4c4c4);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 118px 60px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  max-width: 360px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.advantages-title .item {
+  margin-bottom: 30px;
+}
+
+.advantages-title .item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-image: url(../images/Group.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.advantages-title .clock-item::before {
+  background-image: url(../images/clock.svg);
+}
+
+.advantages-title .diagram-item::before {
+  background-image: url(../images/diagram.svg);
+}
+
+.advantages-title .astronaut-item::before {
+  background-image: url(../images/astronaut.svg);
+}
+
+.advantages-title .title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.advantages-title .lead {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 @media screen and (max-width: 1199px) {
