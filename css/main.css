@@ -836,6 +836,7 @@ footer {
 }
 
 .backdrop {
+  padding: 50px 20px;
   position: fixed;
   top: 0;
   left: 0;
