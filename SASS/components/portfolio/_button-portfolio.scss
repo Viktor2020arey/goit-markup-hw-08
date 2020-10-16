@@ -1,12 +1,14 @@
 .button-portfolio {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  padding-bottom: 16px;
-  margin-bottom: 34px;
+  // justify-content: center;
+  // padding-bottom: 16px;
+  margin-bottom: 25px;
 
   & .item {
     margin-right: 8px;
+    margin-bottom: 15px;
   }
 
   & .item:last-child {
@@ -20,7 +22,7 @@
 
   display: inline-block;
   border-radius: 4px;
-  padding: 5px 22px;
+  padding: 6px 22px;
   min-width: 73px;
   text-align: center;
   border: 1px solid transparent;
