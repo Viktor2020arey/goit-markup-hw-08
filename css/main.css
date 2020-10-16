@@ -219,6 +219,7 @@ header {
 
 .menu-container.is-open {
   display: block;
+  z-index: 1;
 }
 
 .navigation {
