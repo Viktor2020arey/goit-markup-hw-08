@@ -917,7 +917,7 @@ textarea {
 }
 
 .form {
-  width: 370px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1095,5 +1095,11 @@ textarea {
 .button.form-button {
   position: absolute;
   left: 30%;
+}
+
+@media screen and (max-width: 479px) {
+  .button.form-button {
+    left: 20%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
