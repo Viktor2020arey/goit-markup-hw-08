@@ -45,6 +45,12 @@
   border-radius: 4px;
 }
 
+@media screen and (min-width: 768px) {
+  .modal {
+    top: 70%;
+  }
+}
+
 .button-close {
   position: absolute;
   top: 0;

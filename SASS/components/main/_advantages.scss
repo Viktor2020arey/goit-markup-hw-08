@@ -1,6 +1,32 @@
-.advantages-title .item {
-  margin-bottom: 30px;
+@media screen and (min-width: 768px) {
+  .advantages-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  .advantages-title .item {
+    flex-basis: calc((100% - 30px) / 2);
+    margin-right: 30px;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0px;
+    }
+  }
+}
+
 .advantages-title .item::before {
   content: "";
   display: block;
