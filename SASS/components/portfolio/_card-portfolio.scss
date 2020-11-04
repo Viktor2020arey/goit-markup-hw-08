@@ -3,9 +3,17 @@
   padding-bottom: 60px;
   margin: 0;
 }
+
+@media screen and (min-width: 1200px) {
+  .card-item {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .card-link {
   & .card-img {
-    padding: 24px 20px;
+    padding: 20px 24px;
   }
 
   & h2 {
@@ -14,6 +22,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
   }
 
   & p {
@@ -71,13 +80,27 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-link .item {
     width: calc((100% - 30px) / 2);
     margin-right: 30px;
 
     &:nth-child(2n) {
       margin-right: 0px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-link .item {
+    width: calc((100% - 30px * 2) / 3);
+    margin-right: 30px;
+
+    &:nth-child(3n) {
+      margin-right: 0px;
+    }
+    &:nth-last-child(-n + 3) {
+      margin-bottom: 0px;
     }
   }
 }

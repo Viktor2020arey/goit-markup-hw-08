@@ -2,8 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  // justify-content: center;
-  // padding-bottom: 16px;
   margin-bottom: 25px;
 
   & .item {
@@ -23,6 +21,13 @@
     & .item {
       margin-bottom: 0px;
     }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .button-portfolio {
+    margin-bottom: 50px;
+    justify-content: center;
   }
 }
 
