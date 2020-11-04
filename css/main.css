@@ -574,6 +574,42 @@ header {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .list-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .list-img .item {
+    width: calc((100% -60px) / 3);
+    margin-right: 30px;
+    position: relative;
+  }
+  .list-img .item:last-child {
+    margin-right: 0px;
+  }
+  .container-img {
+    background-color: rgba(47, 48, 58, 0.8);
+    display: block;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .title.img {
+    font-size: 14px;
+    line-height: 1.14em;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+}
+
 .section.our-team {
   background-color: #f5f4fa;
   padding-top: 60px;
