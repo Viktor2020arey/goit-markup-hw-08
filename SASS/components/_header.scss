@@ -35,6 +35,13 @@ header {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19px;
+  }
+}
+
 // Выпадающее меню
 // Кнопка
 
@@ -102,6 +109,12 @@ header {
     flex-grow: 1;
     justify-content: space-between;
     padding-left: 86px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-container {
+    padding-left: 93px;
   }
 }
 
@@ -239,7 +252,8 @@ header {
 
 @media screen and (min-width: 1200px) {
   .header-adress .item + .item {
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-top: 0px;
   }
 }
 
@@ -271,8 +285,6 @@ header {
 
 @media screen and (min-width: 1200px) {
   .header-adress a {
-    padding-top: 32px;
-    padding-bottom: 32px;
     font-size: 14px;
     line-height: 1.14;
   }
