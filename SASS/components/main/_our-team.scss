@@ -3,6 +3,14 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+@media screen and (min-width: 1200px) {
+  .section.our-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .our-team {
     display: -webkit-box;
@@ -25,7 +33,7 @@
   margin-top: 30px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .our-team .item {
     flex-basis: calc((100% - 30px) / 2);
     margin-right: 30px;
@@ -41,6 +49,17 @@
 
     &:nth-last-child(-n + 2) {
       margin-bottom: 0px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-team .item {
+    width: calc((100% - 3 * 30px) / 4);
+    margin-top: 0px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
     }
   }
 }
