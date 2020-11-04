@@ -31,7 +31,7 @@ footer {
 }
 
 .logo-footer {
-  color: #2196f3;
+  color: $accent-color;
   font-family: Raleway, sans-serif;
   text-decoration: none;
   font-weight: 700;
@@ -42,7 +42,7 @@ footer {
 }
 
 .studio-footer {
-  color: #ffffff;
+  color: $white-text;
 }
 @media screen and (max-width: 1199px) {
   .container-adress-footer {
@@ -56,21 +56,21 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $white-text;
   margin-bottom: 20px;
 }
 
 .social-link.footer {
-  fill: #ffffff;
+  fill: $white-text;
   background-color: rgba(255, 255, 255, 0.1);
   &:hover,
   &:focus {
-    background-color: #2196f3;
+    background-color: $accent-color;
   }
 }
 
 .adress-title .location {
-  color: #ffffff;
+  color: $white-text;
   text-decoration: none;
   font-style: normal;
   font-weight: 400;

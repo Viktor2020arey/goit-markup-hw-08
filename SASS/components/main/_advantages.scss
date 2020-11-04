@@ -51,7 +51,7 @@
   background-image: url(../images/Group.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #f5f4fa;
+  background-color: $bg-button-portfolio;
   margin-bottom: 30px;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .advantages-title .title {
-  color: #212121;
+  color: $title-text-color;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -77,7 +77,7 @@
 }
 
 .advantages-title .lead {
-  color: #757575;
+  color: $primary-text-color;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

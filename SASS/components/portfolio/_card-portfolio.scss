@@ -17,7 +17,7 @@
   }
 
   & h2 {
-    color: #212121;
+    color: $title-text-color;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -26,7 +26,7 @@
   }
 
   & p {
-    color: #757575;
+    color: $primary-text-color;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
@@ -41,7 +41,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 1.56;
-    color: #ffffff;
+    color: $white-text;
   }
 }
 
@@ -58,7 +58,7 @@
 .card-link .item {
   // width: 450px;
   margin-bottom: 30px;
-  background: #ffffff;
+  background: $white-text;
   border: 1px solid #eeeeee;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

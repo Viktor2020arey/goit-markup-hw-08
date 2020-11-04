@@ -75,13 +75,9 @@ ul {
 
 @media screen and (max-width: 1199px) {
   .section-title {
-    font-style: normal;
-    font-weight: bold;
     font-size: 28px;
     line-height: 1.18;
     margin-bottom: 30px;
-    text-align: center;
-    color: #212121;
   }
 }
 
@@ -199,6 +195,7 @@ header {
 
 .menu-button:hover, .menu-button:focus {
   fill: #2196f3;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {

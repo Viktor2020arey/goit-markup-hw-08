@@ -77,7 +77,7 @@
 }
 
 .client-link:hover {
-  border: 1px solid #2196f3;
+  border: 1px solid $accent-color;
 }
 .client-icon {
   fill: #afb1b8;
@@ -88,5 +88,5 @@
 }
 
 .client-link:hover .client-icon {
-  fill: #2196f3;
+  fill: $accent-color;
 }

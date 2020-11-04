@@ -37,7 +37,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background: #ffffff;
+  background: $white-text;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -74,7 +74,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  fill: #000000;
+  fill: $studio-text;
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -85,7 +85,7 @@
 
 .button-close:hover {
   cursor: pointer;
-  fill: #2196f3;
+  fill: $accent-color;
 }
 
 .close-icon {
@@ -146,7 +146,7 @@ textarea {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: $title-text-color;
 }
 
 .form-label {
@@ -156,7 +156,7 @@ textarea {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: $primary-text-color;
 }
 
 .form-icon {
@@ -168,7 +168,7 @@ textarea {
   display: inline-block;
   width: 18px;
   height: 18px;
-  fill: #212121;
+  fill: $title-text-color;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -176,11 +176,11 @@ textarea {
 }
 
 .form-input:focus ~ .form-icon {
-  fill: #2196f3;
+  fill: $accent-color;
 }
 
 .form-input:focus {
-  border-color: #2196f3;
+  border-color: $accent-color;
 }
 
 .comment {
@@ -232,7 +232,7 @@ textarea {
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: $primary-text-color;
 }
 
 .checkbox-input {
@@ -247,8 +247,8 @@ textarea {
   width: 16px;
   height: 15px;
   margin-right: 8px;
-  background-color: #ffffff;
-  border: 2px solid #212121;
+  background-color: $white-text;
+  border: 2px solid $title-text-color;
   border-radius: 2px;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -257,8 +257,8 @@ textarea {
 }
 
 .checkbox-input:checked + .checkbox-icon {
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: $accent-color;
+  border-color: $accent-color;
   background-image: url("../images/check.svg");
   background-size: contain;
   background-origin: border-box;
@@ -266,7 +266,7 @@ textarea {
 }
 
 .contract {
-  color: #2196f3;
+  color: $accent-color;
 
   font-style: normal;
   font-weight: normal;
