@@ -129,6 +129,13 @@ ul {
   margin-right: auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .subscription-button {
+    margin-left: 12px;
+    margin-right: 0px;
+  }
+}
+
 .subscription-icon {
   margin-left: 10px;
 }
@@ -842,6 +849,17 @@ footer {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .container.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .for-tablet {
     display: -webkit-box;
@@ -870,8 +888,10 @@ footer {
   color: #ffffff;
 }
 
-.container-adress-footer {
-  margin-bottom: 60px;
+@media screen and (max-width: 1199px) {
+  .container-adress-footer {
+    margin-bottom: 60px;
+  }
 }
 
 .title.footer {
@@ -913,8 +933,46 @@ footer {
   display: inline-block;
 }
 
-.container-list-footer {
-  margin-bottom: 60px;
+@media screen and (max-width: 1199px) {
+  .container-list-footer {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-list-footer {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .subscription {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscription {
+    width: 570px;
+    margin-left: auto;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .footer-input {
@@ -936,6 +994,13 @@ footer {
   border-radius: 4px;
   background-color: #2f303a;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-input {
+    margin-bottom: 0px;
+    width: 358px;
+  }
 }
 
 .button-portfolio {

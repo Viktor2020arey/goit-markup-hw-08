@@ -6,6 +6,17 @@ footer {
   padding-bottom: 60px;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .container.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .for-tablet {
     display: -webkit-box;
@@ -33,9 +44,10 @@ footer {
 .studio-footer {
   color: #ffffff;
 }
-
-.container-adress-footer {
-  margin-bottom: 60px;
+@media screen and (max-width: 1199px) {
+  .container-adress-footer {
+    margin-bottom: 60px;
+  }
 }
 
 .title.footer {
@@ -76,7 +88,14 @@ footer {
   margin-top: 8px;
   display: inline-block;
 }
+@media screen and (max-width: 1199px) {
+  .container-list-footer {
+    margin-bottom: 60px;
+  }
+}
 
-.container-list-footer {
-  margin-bottom: 60px;
+@media screen and (min-width: 1200px) {
+  .container-list-footer {
+    margin-left: 70px;
+  }
 }
