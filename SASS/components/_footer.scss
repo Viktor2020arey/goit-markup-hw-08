@@ -6,6 +6,18 @@ footer {
   padding-bottom: 60px;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .for-tablet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+}
 
 .logo-footer {
   color: #2196f3;
