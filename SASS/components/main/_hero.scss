@@ -103,14 +103,14 @@
         from(rgba(47, 48, 58, 0.4)),
         to(rgba(47, 48, 58, 0.4))
       ),
-      url(../images/desktop/hero.jpg),
+      url(../images/Desktop/hero.jpg),
       -webkit-gradient(linear, left top, right top, from(#c4c4c4), to(#c4c4c4));
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/desktop/hero.jpg),
+      url(../images/Desktop/hero.jpg),
       linear-gradient(to right, #c4c4c4, #c4c4c4);
 
     padding: 200px 0px;
@@ -127,14 +127,14 @@
           from(rgba(47, 48, 58, 0.4)),
           to(rgba(47, 48, 58, 0.4))
         ),
-        url(../images/desktop/hero@2x.jpg),
+        url(../images/Desktop/hero@2x.jpg),
         -webkit-gradient(linear, left top, right top, from(#c4c4c4), to(#c4c4c4));
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/desktop/hero@2x.jpg),
+        url(../images/Desktop/hero@2x.jpg),
         linear-gradient(to right, #c4c4c4, #c4c4c4);
     }
   }
