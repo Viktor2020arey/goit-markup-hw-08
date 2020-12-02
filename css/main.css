@@ -255,11 +255,11 @@ header {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-left: 86px;
+    padding-left: 88px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .menu-container {
     padding-left: 93px;
   }
@@ -995,9 +995,6 @@ footer {
     margin-right: 0px;
     text-align: left;
   }
-}
-
-@media screen and (min-width: 1200px) {
   .footer-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1508,6 +1505,15 @@ textarea {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 479px) {
+  .contract {
+    font-size: 10px;
+  }
+  .contract-text {
+    font-size: 9px;
+  }
 }
 
 .button.form-button {

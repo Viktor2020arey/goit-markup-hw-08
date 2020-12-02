@@ -282,6 +282,15 @@ textarea {
   letter-spacing: 0.03em;
 }
 
+@media screen and (max-width: 479px) {
+  .contract {
+    font-size: 10px;
+  }
+  .contract-text {
+    font-size: 9px;
+  }
+}
+
 .button.form-button {
   position: absolute;
   left: 30%;
