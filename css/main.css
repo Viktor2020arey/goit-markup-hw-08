@@ -705,6 +705,7 @@ header {
   .our-team .item {
     width: calc((100% - 3 * 30px) / 4);
     margin-top: 0px;
+    padding-bottom: 30px;
   }
   .our-team .item:not(:last-child) {
     margin-right: 30px;
@@ -737,6 +738,7 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 16px;
+  height: 44px;
 }
 
 .circle {
@@ -865,6 +867,7 @@ header {
 
 .client-icon {
   fill: #afb1b8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -8,8 +8,8 @@
   background-color: rgba(0, 0, 0, 0.2);
   overflow-y: scroll;
   opacity: 1;
-  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity $bezier;
+  transition: opacity $bezier;
 }
 
 .backdrop.is-is-hidden {
@@ -32,11 +32,11 @@
   max-width: 440px;
   -webkit-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform $bezier;
+  transition: -webkit-transform $bezier;
+  transition: transform $bezier;
+  transition: transform $bezier,
+    -webkit-transform $bezier;
   background: $white-text;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -79,8 +79,8 @@
   width: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-transition: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: cursor $bezier;
+  transition: cursor $bezier;
 }
 
 .button-close:hover {
@@ -169,10 +169,10 @@ textarea {
   width: 18px;
   height: 18px;
   fill: $title-text-color;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill $bezier,
+    border-color $bezier;
+  transition: fill $bezier,
+    border-color $bezier;
 }
 
 .form-input:focus ~ .form-icon {
@@ -250,10 +250,10 @@ textarea {
   background-color: $white-text;
   border: 2px solid $title-text-color;
   border-radius: 2px;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color $bezier,
+    border-color $bezier;
+  transition: background-color $bezier,
+    border-color $bezier;
 }
 
 .checkbox-input:checked + .checkbox-icon {
