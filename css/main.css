@@ -891,6 +891,7 @@ footer {
     -webkit-box-align: baseline;
     -ms-flex-align: baseline;
     align-items: baseline;
+    text-align: left;
   }
 }
 
@@ -1155,6 +1156,9 @@ footer {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
